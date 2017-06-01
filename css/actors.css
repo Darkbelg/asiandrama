@@ -1,0 +1,17 @@
+/*Because of you cast*/
+.usertext-body a { display: inline-block }
+a[href^="//#"] {
+    pointer-events: none;
+    cursor: default;
+    display: inline-block;
+    background-image: url(%%becauseOfYouCast%%);
+    background-repeat: no-repeat;
+    background-position: -9999px -9999px;
+    margin: 0 2px; content: " ";
+    width: 150px; height: 150px;
+}
+a[href|="//#SunYi"]{background-position:0 0;}
+a[href|="//#DengLun"]{background-position:-150px 0;}
+a[href|="//#WuYou"]{background-position:-300px 0;}
+a[href|="//#DaiChoa"]{background-position:-450px 0;}
+a[href|="//#LiuMinTao"]{background-position:-600px 0;}

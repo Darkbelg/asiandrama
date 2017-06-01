@@ -1,0 +1,44 @@
+/* --- Addon: Colorize the Subreddit Info Box --- */
+.side .titlebox h1.redditname:before {background-color: #95bab9;}
+.side .titlebox h1.redditname a, .titlebox span.subscribers {color: #fff;}
+/* --- End Addon --- */
+
+/* --- Addon: Change Subreddit's colors --- */
+
+/* Buttons */
+.morelink, .side .titlebox .md h3 a, .drop-choices a.choice:hover, .submit-page #newlink.submit.content ul.tabmenu.formtab,
+.submit_text.enabled.roundfield, body .btn, body button, .content .infobar {background-color: #95bab9;}
+
+.morelink:hover, .side .titlebox .md h3 a:hover, .btn:hover, body button:hover {background-color: #e7d970;}
+.morelink:active , .side .titlebox .md h3 a:active , .btn:active , body button:active {background-color: #ce4500;}
+
+/* Links */
+.thing .title.loggedin.click, .thing .title.click, .thing .title.loggedin, .thing .title, .link .entry .buttons li a.comments,
+.link .entry .buttons li a.flairselectbtn, .link .entry .buttons li a:hover, .titlebox .tagline a.flairselectbtn, .md a,
+.side .titlebox .md h4 a, .wiki-page .wiki-page-content .md.wiki h4, .sidebox.create .morelink a, a, .side:after, .usertext .bottom-area a.reddiquette,
+.wiki-page .pageactions .wikiaction-current, .tagline .submitter, .combined-search-page .search-result .search-result-header .search-title,
+.combined-search-page .search-result a, .combined-search-page .search-result a>mark, .combined-search-page .search-result .search-comments,
+.flairselector h2, .linefield .title, body .content .sitetable .link .title a:hover, .link .entry .tagline a:hover, .comment .author:hover {color: #24a0ed;}
+
+/* --- End Addon --- */
+
+/* --- Addon: Change Flair's colors --- */
+/* if you change anything you have to duplicate the classes and add them */
+.linkflair-green .linkflairlabel {background-color: #27b062;}
+.linkflair-blue .linkflairlabel {background-color: #24a0ed;}
+.linkflair-red .linkflairlabel {background-color: #D12F2E;}
+.linkflair-orange .linkflairlabel {background-color: #EC861A;}
+.linkflair-purple .linkflairlabel {background-color: #9f1aec;}
+/* --- End Addon --- */
+
+/* White background no borders*/
+body{
+    background-color:white;
+}
+.side .titlebox,.side .sidecontentbox, body.listing-page>.content,#ad_main, .account-activity-box {
+    box-shadow:0 0 0 0 rgba(0,0,0,0.00);
+}
+.organic-listing .link.promotedlink{
+    border:0px solid #edf1f3;
+}
+
